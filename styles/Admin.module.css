@@ -1,0 +1,111 @@
+.container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 20px;
+  text-align: left;
+  border-collapse: collapse;
+  border: 2px solid #d1411e;
+  border-radius: 5px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.button:first-child {
+  background-color: teal;
+  margin-right: 10px;
+}
+
+.button:last-child {
+  background-color: crimson;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color:  #d1411e;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product {
+  flex: 0 0 23%;
+  border-radius: 25px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.imageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d1411e;
+}
+
+.deleteButton {
+  background-color: #d1411e;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.orderProduct {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.orderHeader {
+  border-bottom: 1px solid #d1411e;
+  background-color: #d1411e;
+}
+
+.orderHeader th {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 20px;
+}
+
+
+.orderRow td {
+  padding: 10px 20px;
+}
+
+.ordersWrapper {
+  border-radius: 10px;
+  overflow: hidden;
+}
